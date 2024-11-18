@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хор НИУ</title>
+    <link rel="stylesheet" href="../static/css/style_3.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="../static/css/swiper-bundle.min_3.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-bar">
+            <a href="" class="logo">Хор Николо-Угрешкого монастыря</a>
+            <div class="navigation">
+                <div class="nav-items">
+                    <i class="uil uil-times nav-close-btn"></i>
+                    <a href="./index.html"><i class="uil uil-home"></i>Home</a>
+                    <a href="./index_2.html"><i class="uil uil-compass"></i>Multimedia</a>
+                    <a href="#animated-bg"><i class="uil uil-compass"></i>About</a>
+                    <a href="#cont"><i class="uil uil-envelope"></i>Contact</a>
+                </div>
+            </div>
+            <i class="uil uil-apps nav-menu-btn"></i>
+        </div>
+    </header>
+
+    <section class="home">
+
+        <div class="media-icons">
+            <a href=""><i class="uil uil-telegram"></i></a>
+            <a href="https://www.youtube.com/playlist?list=PLnEtNzpIVfgfZZLsNV1TkJp8_9yQ5nL5m"><i class="uil uil-youtube"></i></a>
+            <a href="https://vk.com/choirnum"><i class="uil uil-vk"></i></a>
+        </div>
+
+        <div class="swiper bg-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide dark-layer">
+                    <img src="../static/assets/bg-1.jpg" alt="" />
+                    <div class="text-content">
+                         <!--<button style="margin-top: 120px;" class="read-btn">About<i class="uil uil-arrow-right"></i></button>-->
+                    </div>
+                </div>
+                <div class="swiper-slide dark-layer">
+                    <img src="../static/assets/bg-2.jpg" alt="" />
+                    <div class="text-content">
+                         <!--<button style="margin-top: 120px;" class="read-btn">About<i class="uil uil-arrow-right"></i></button>-->
+                    </div>
+                </div>
+                <div class="swiper-slide dark-layer">
+                    <img src="../static/assets/bg-3.jpg" alt="" />
+                    <div class="text-content">
+                         <!--<button style="margin-top: 120px;" class="read-btn">About<i class="uil uil-arrow-right"></i></button>-->
+                    </div>
+                </div>
+                <div class="swiper-slide dark-layer">
+                    <img src="../static/assets/bg-4.jpg" alt="" />
+                    <div class="text-content">
+                         <!--<button style="margin-top: 120px;" class="read-btn">About<i class="uil uil-arrow-right"></i></button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-slider-thumbs">
+            <div class="swiper-wrapper thumbs-container">
+                <img src="../static/assets/bg-1.jpg" class="swiper-slide" alt="">
+                <img src="../static/assets/bg-2.jpg" class="swiper-slide" alt="">
+                <img src="../static/assets/bg-3.jpg" class="swiper-slide" alt="">
+                <img src="../static/assets/bg-4.jpg" class="swiper-slide" alt="">
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="animated-bg" class="about section">
+        
+        
+        <div id='stars' style="position: absolute;"></div>
+        <div id='stars2' style="position: absolute;"></div>
+        <div id='stars3' style="position: absolute;"></div>
+        <br>
+        
+            <div id="video-slder" class="drv">
+                <img class="dipk"   src="../static/assets/diplom.jpg" alt="">
+            </div>
+
+            <div class="drv_2">
+                <p id="write_rand" class="write">
+                </p>
+            </div>
+
+        </section>
+
+
+    <div id="form-div">
+        <form class="form" id="form1" action="/contact" method="post">
+          
+          <p class="name">
+            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+          </p>
+          
+          <p class="email">
+            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+          </p>
+          
+          <p class="text">
+            <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+          </p>
+          
+          
+          <div class="submit">
+            <input type="submit" value="SEND" id="button-blue"/>
+            <div class="ease"></div>
+          </div>
+        </form>
+    </div>
+    
+    <footer class="footer-distributed" id="cont">
+        <div class="footer-left">
+            <h3>Хор</h3>
+            <span>Николо-Угрешкого монастыря</span>
+            <p class="footer-links">
+                <a href="./index.html" class="link-1">Home</a>
+
+                <a href="./index_2.html">Multimedia</a>
+
+                <a href="#animated-bg">About</a>
+
+            </p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"><img src="../static/assets/address.png" width="25" height="25" alt=""></i>
+                <p><span>Московская обл., г. Дзержинский</span>пл. Свт. Николая, д. 1.</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"><img src="../static/assets/phone.png" width="25" height="25" alt=""></i>
+                <p>+79151254297</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"><img src="../static/assets/email (1).png" width="25" height="25" alt=""></i>
+                <p><a href="mailto:support@company.com">choirnum@yandex.ru</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Подписывайтесь на наши соцыальные сети</span>
+                Здесь мы будем публиковать интерестные новости из жизни хора.
+            </p>
+            <div class="footer-icons">
+                <a href=""><i class="uil uil-telegram"></i></a>
+                <a href="https://www.youtube.com/playlist?list=PLnEtNzpIVfgfZZLsNV1TkJp8_9yQ5nL5m"><i class="uil uil-youtube"></i></a>
+                <a href="https://vk.com/choirnum"><i class="uil uil-vk"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../static/js/swiper-bundle.min.js" defer></script>
+    <script src="../static/js/main_3.js" defer></script>
+</body>
+    </html>
